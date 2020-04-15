@@ -1,0 +1,12 @@
+server:
+   port: 8088
+
+spring:
+  application:
+    name: api-gtw
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream    
